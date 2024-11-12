@@ -39,7 +39,7 @@ public class EmployeeControllerTest {
     public void testGetEmployees() throws Exception {
         mockMvc.perform(get("/employees"))
             .andExpect(status().isOk())
-            .andExpect(jsonPath("$[0].firstName", is("Laurent")));
+            .andExpect(jsonPath("$[0].firstName", is("AKONDE")));
     }
 
 }
