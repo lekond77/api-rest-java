@@ -9,12 +9,6 @@ import lombok.Data;
 @Data
 public class ApiApplication{
 
-/*	@GetMapping("/")
-	String home() {
-		return "Hello World!";
-	}*/
-	
-
 	public static void main(String[] args) {
 		SpringApplication.run(ApiApplication.class, args);
 	}

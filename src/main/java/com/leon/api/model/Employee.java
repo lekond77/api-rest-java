@@ -10,7 +10,7 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "employee")
+@Table(name = "employees")
 public class Employee {
 
 	@Id
@@ -20,12 +20,24 @@ public class Employee {
 	@Column(name = "first_name")
 	private String firstName;
 
+
 	@Column(name = "last_name")
 	private String lastName;
 
+	@Column(name = "email")
 	private String email;
 
 	private String password;
+	
+	
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
 
 	public String getFirstName() {
 
