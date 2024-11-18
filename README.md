@@ -20,6 +20,8 @@ This project is a RESTful API for managing employee data. It provides endpoints 
     ```bash
     git clone git@github.com:lekond77/api-rest-java.git
 
+Webapp available here : https://github.com/lekond77/employeeWebapp
+
 2. Deploy the api:
     ```bash
     java -jar target/api-0.0.1-SNAPSHOT.jar
@@ -57,7 +59,7 @@ Ce projet est une API RESTful pour la gestion des données des employés. Il fou
 1. Cloner le dépôt :
    ```bash
    git clone git@github.com:lekond77/api-rest-java.git
-
+Frontend disponible ici : https://github.com/lekond77/employeeWebapp
 2. Déployer l'api :
    ```bash
-  java -jar target/api-0.0.1-SNAPSHOT.jar
+   java -jar target/api-0.0.1-SNAPSHOT.jar
